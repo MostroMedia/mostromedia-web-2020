@@ -1,9 +1,10 @@
 import React from 'react';
+import Home from './Components/Home';
 
 function App() {
   return (
     <div className="App">
-      <h1>Mostromedia</h1>
+      <Home />
     </div>
   );
 }
