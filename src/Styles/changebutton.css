@@ -1,0 +1,6 @@
+.change-button{
+    display: block;
+    border: 1px solid gray;
+    border-radius: 20px;
+    text-align: center;
+}
