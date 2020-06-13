@@ -1,9 +1,38 @@
+@import "./variables.scss";
+
+
 .character{
+    position: relative;
     height: 200px;
     width: 100%;
     text-align: center;
     justify-self: center;
     align-self: center;
-    border: 2px solid yellow;
-    border-radius: 20px;
+
+    .background-back{
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        z-index: -1;
+        left: 0;
+        top: 0;
+        background-color: $primary-color;
+    }
+
+    .background-front{
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        z-index: 1;
+        left: 5%;
+        top: 20%;
+        background-color: $primary-color-highlight;
+    }
+
+    img.mostro-img{
+        position: relative;
+        margin-top: 20px;
+        z-index: 2;
+    }
+
 }

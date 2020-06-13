@@ -12,7 +12,7 @@ const Team = () => {
             <div className="container-title">
                 <Subtitle />
                 <Title />
-                <p class="team-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae saepe assumenda distinctio molestias laborum unde, officiis ratione quidem obcaecati, hic tenetur similique repellendus illo dolorum veniam perferendis consectetur? Odio, delectus!</p>
+                <p className="team-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae saepe assumenda distinctio molestias laborum unde, officiis ratione quidem obcaecati, hic tenetur similique repellendus illo dolorum veniam perferendis consectetur? Odio, delectus!</p>
             </div>
         </section>
     );
