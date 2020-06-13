@@ -3,7 +3,7 @@ import '../../Styles/title.scss';
 
 const Title = () => {
     return (
-        <h1>Title for Teams</h1>
+        <h1 className="title title-team">The team</h1>
     )
 }
 

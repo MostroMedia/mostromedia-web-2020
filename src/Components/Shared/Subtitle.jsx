@@ -3,7 +3,7 @@ import '../../Styles/subtitle.scss';
 
 const Subtitle = () => {
     return (
-        <h1>Subtitle for Teams</h1>
+        <h2 className="subtitle subtitle-team">Subtitle for Teams</h2>
     )
 }
 

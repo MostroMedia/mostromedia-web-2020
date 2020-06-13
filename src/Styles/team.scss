@@ -1,15 +1,37 @@
+@import "./variables.scss";
+
 .team{
     position: relative;
     display: grid;
     padding: 10px;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 10px;
-}
 
-p.team-text{
-    text-align: end;
-    max-width: 500px;
-    float: right;
+    .container-title{
+        position: relative;
+        display: grid;
+        justify-content: center;
+        align-self: center;
+        height: 250px;
+    }
+
+    p.team-text{
+        text-align: end;
+        max-width: 500px;
+        margin-right: 20px;
+
+        &::after{
+            content: "";
+            position: absolute;
+            top: 53%;
+            background-color: $primary-color;
+            width: 5px;
+            height: 40%;
+            margin: 0 10px;
+        }
+    }
+    
+    
 }
 
 
