@@ -1,5 +1,5 @@
 import React from 'react';
-import './../../Styles/radioButton.css'
+import './../../Styles/radioButton.scss'
 
 const RadioButton = ({text}) => {
 

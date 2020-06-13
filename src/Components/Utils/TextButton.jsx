@@ -1,5 +1,5 @@
 import React from 'react';
-import './../../Styles/textButton.css';
+import './../../Styles/textButton.scss';
 
 const TextButton = ({text}) => {
     return ( 

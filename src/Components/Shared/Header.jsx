@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import TextButton from './../Utils/TextButton';
 import RadioButton from './../Utils/RadioButton';
-import './../../Styles/header.css';
+import './../../Styles/header.scss';
 
 const Header = () => {
     return ( 

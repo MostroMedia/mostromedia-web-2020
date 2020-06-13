@@ -1,25 +1,20 @@
 import React from 'react';
 import Title from './Shared/Title';
+import Subtitle from './Shared/Subtitle';
 import Character from './Shared/Character';
 import ChangeButton from './Utils/ChangeButton';
-import '../Styles/team.css';
+import '../Styles/team.scss';
 
 const Team = () => {
     return (
-        <div className="team">
-            <div className="item-1">
+        <section className="team">
+            <Character />
+            <div className="container-title">
+                <Subtitle />
                 <Title />
+                <p className="team-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae saepe assumenda distinctio molestias laborum unde, officiis ratione quidem obcaecati, hic tenetur similique repellendus illo dolorum veniam perferendis consectetur? Odio, delectus!</p>
             </div>
-            <div className="item-2">
-                <ChangeButton />
-                <ChangeButton />
-            </div>
-            <div className="item-3">
-                <Character />
-                <Character />
-                <Character />
-            </div> 
-        </div>
+        </section>
     );
 }
 
