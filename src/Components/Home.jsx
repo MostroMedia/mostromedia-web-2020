@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Shared/Header';
-import '../Styles/home.css';
+import '../Styles/home.scss';
 
 const Home = () => {
     return ( 

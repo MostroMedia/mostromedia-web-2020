@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../Styles/changebutton.css';
+import '../../Styles/changebutton.scss';
 
 const ChangeButton = () => {
     return (

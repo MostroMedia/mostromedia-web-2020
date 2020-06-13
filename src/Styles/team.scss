@@ -1,0 +1,15 @@
+.team{
+    position: relative;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+p.team-text{
+    text-align: end;
+    max-width: 500px;
+    float: right;
+}
+
+

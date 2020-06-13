@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../Styles/character.css';
+import '../../Styles/character.scss';
 
 const Character = () => {
     return (
