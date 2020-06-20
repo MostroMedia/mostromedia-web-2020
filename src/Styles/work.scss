@@ -1,0 +1,27 @@
+section.work{
+    margin-top: 50px;
+    .container{
+        &-work-title{
+            width: 100%;
+    
+            h1,h2{
+                display: block;
+                margin: auto;
+                text-align: center;
+                line-height: 3;
+            }
+    
+        }
+    
+        &-projects{
+            padding: 0;
+            list-style: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+            @media screen and (max-width: 760px){
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}
