@@ -5,6 +5,9 @@ import Title from './Shared/Title';
 import Subtitle from './Shared/Subtitle';
 import Information from './Shared/Information';
 import RadioButton from './Utils/RadioButton';
+import mostroPurple from "../Images/Mostros/mostro_0001.png";
+import mostroYellow from "../Images/Mostros/mostro_0002.png";
+import mostroOrange from "../Images/Mostros/mostro_0003.png";
 
 const Home = () => {
 
@@ -13,6 +16,7 @@ const Home = () => {
 
     return ( 
         <div className="home">
+            {/* <img src="/svg/desktop-back.svg" alt=""/> */}
             <Header />
             <div className="center">
                 <div className="container-banner">
@@ -33,7 +37,11 @@ const Home = () => {
                     <div className="seven-column"></div>
                 </div>
             </div>
-            
+            <div className="container-monsters">
+                <img src={mostroPurple} className="monster-one" alt="Monster One"/>
+                <img src={mostroYellow} className="monster-two" alt="Monster Two"/>
+                <img src={mostroOrange} className="monster-three" alt="Monster Three"/>
+            </div>
         </div>
      );
 }

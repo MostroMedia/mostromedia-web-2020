@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../Styles/character.scss';
-import mostro from "../../Images/Mostros/mostro_0001.png"
+import mostro from "../../Images/Mostros/mostro_0001.png";
 
 const Character = () => {
     return (
