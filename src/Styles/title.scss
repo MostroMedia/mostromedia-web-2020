@@ -1,5 +1,11 @@
 @import "./variables.scss";
 
 .title-team{
-  text-align: end;
+  &.left {
+    text-align: left;
+  }
+
+  &.right {
+    text-align: right;
+  }
 }

@@ -10,13 +10,13 @@ const Header = () => {
                 <div className="center">
                     <div className="grid-container">
                         <div className="left">
-                            <img src="/old_logo.png" alt="Old Logo"/>
+                            <a href="/"><img src="/logotype.png" alt="New Logo"/></a>
                         </div>
                         <div className="right">
                             <TextButton text="Home" />
                             <TextButton text="Team" />
                             <TextButton text="Work" />
-                            <RadioButton text="Contact" />
+                            <TextButton text="Contact Us" />
                         </div>
                     </div>
                 </div>

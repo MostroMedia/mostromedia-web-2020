@@ -1,9 +1,14 @@
 import React from 'react';
 import '../../Styles/subtitle.scss';
 
-const Subtitle = () => {
+const Subtitle = ({text, float}) => {
+
+    let position = false; 
+
+    if(float === 'left') position = true; 
+      
     return (
-        <h2 className="subtitle subtitle-team">Subtitle for Teams</h2>
+        <h3 className={`subtitle subtitle-team ${position ? 'left' : 'right'}`}>{text}</h3>
     )
 }
 

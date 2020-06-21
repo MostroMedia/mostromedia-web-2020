@@ -1,0 +1,36 @@
+@import "./variables.scss";
+
+.box-information {
+    max-width: 380px;
+    &.underline {
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            background-color: $primary-color;
+            width: 5px;
+            top: calc(50% - 40px);
+            height: 80px;
+        }  
+
+        &.left {
+            &::after{
+                left: -15px;
+            }
+        }
+
+        &.right {
+            &::after{
+                right: -15px;
+            }
+        }
+    }
+
+    &.left {
+        text-align: left;
+    }
+
+    &.right {
+        text-align: right;
+    }
+}

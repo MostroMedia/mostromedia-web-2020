@@ -4,15 +4,25 @@ import Subtitle from './Shared/Subtitle';
 import Character from './Shared/Character';
 import ChangeButton from './Utils/ChangeButton';
 import '../Styles/team.scss';
+import Information from './Shared/Information';
 
 const Team = () => {
+
+    const text = 'We are more than monster, we are a creative and smart team ready for any adventure.';
+
     return (
         <section className="team">
             <Character />
             <div className="container-title">
-                <Subtitle />
-                <Title />
-                <p className="team-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae saepe assumenda distinctio molestias laborum unde, officiis ratione quidem obcaecati, hic tenetur similique repellendus illo dolorum veniam perferendis consectetur? Odio, delectus!</p>
+                <Subtitle text="Discover Our Team"
+                          float="right" />
+
+                <Title text="The Team"
+                       float="right" />
+
+                <Information text={text}
+                             underline={true}
+                             float="right" />
             </div>
         </section>
     );

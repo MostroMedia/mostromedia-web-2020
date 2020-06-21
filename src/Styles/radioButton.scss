@@ -1,17 +1,27 @@
 @import "./variables.scss";
 
 
-.radioButton span {
-  color: $primary-color;
-  border: solid 2px $primary-color;
-  border-radius: 20px;
-  padding: 5px 10px;
-  padding: 5px 20px;
-}
-
-.radioButton span:hover {
-  color: #ffffff;
+.radioButton {
+  width: 262px;
+  display: block;
+  margin: 0 auto;
+  background: $primary-color;
+  border-color: $primary-color;
+  color: $white;
   border: none;
-  background-color: $primary-color;
-  border: solid 2px $primary-color;
+  border-radius: 4px;
+  padding: 18px 0;
+  margin-top: 40px;
+  cursor: pointer;
+  span {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  &:hover {
+    color: $primary-color;
+    background: $white;
+    border: solid 2px;
+  }
+
 }

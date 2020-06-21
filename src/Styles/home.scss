@@ -1,4 +1,31 @@
 .home{
-    height: 600px;
+    height: 700px;
     width: 100%;
+    overflow: hidden;
+    position: relative;
+    .first_bg, .second_bg {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .first_bg {
+        right: -60px;
+    }
+
+    .second_bg {
+        top: -120px;
+        right: -45px;
+    }
+
+    .container-banner {
+        display: grid;
+        grid-template-columns: 10% 30% auto;
+        grid-gap: 10px;
+        padding: 40px 47px 10px;
+        margin-top: 120px;
+        .four-column {
+            display: grid;
+        }
+    }
 }

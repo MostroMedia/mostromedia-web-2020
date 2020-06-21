@@ -1,18 +1,17 @@
 @import "./variables.scss";
 
 
-h1.title{
-    font-size: 1.2em;
-    font-weight: 700;
+h2.title{
+    font-size: 36px;
     color: $primary-color;
     text-transform: uppercase;
-    transform: scaleY(2);
+    margin: 20px 0 40px;
 }
 
-h2.subtitle{
-    font-size: 1em;
-    font-weight: 300;
+h3.subtitle{
+    font-size: 18px;
     color: $primary-color;
     text-transform: uppercase;
-    transform: scaleY(2);
+    letter-spacing: 0.135em;
+    margin: 0;
 }

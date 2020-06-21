@@ -3,7 +3,7 @@ import './../../Styles/textButton.scss';
 
 const TextButton = ({text}) => {
     return ( 
-        <button>{text}</button> 
+        <button className="text-button"><span>{text}</span></button> 
     );
 }
  
