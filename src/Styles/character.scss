@@ -35,4 +35,15 @@
         z-index: 2;
     }
 
+    @media screen and (max-width: 760px){
+        .background-back,
+        .background-front {
+            height: 200px;
+        }
+
+        img.mostro-img {
+            width: 60%;
+        }
+    }
+
 }
