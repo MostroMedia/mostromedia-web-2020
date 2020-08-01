@@ -15,7 +15,7 @@ const Home = () => {
 
 
     return ( 
-        <div className="home">
+        <section className="home">
             {/* <img src="/svg/desktop-back.svg" alt=""/> */}
             <Header />
             <div className="center">
@@ -42,7 +42,7 @@ const Home = () => {
                 <img src={mostroYellow} className="monster-two" alt="Monster Two"/>
                 <img src={mostroOrange} className="monster-three" alt="Monster Three"/>
             </div>
-        </div>
+        </section>
      );
 }
  

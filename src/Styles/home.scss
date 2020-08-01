@@ -39,6 +39,7 @@
         height: 500px;
         right: 0;
         bottom: 0;
+
         img {
             position: absolute;
         }
@@ -62,6 +63,28 @@
             right: -80px;
             top: 20px;
             z-index: 0;
+        }
+
+        @media screen and (max-width: 760px){
+            width: 100%;
+
+            img.monster-one {
+                width: 40%;
+                bottom: 0;
+                left: 10%;
+            }
+            img.monster-two {
+                width: 30%;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            img.monster-three {
+                width: 50%;
+                top: auto;
+                bottom: 0;
+                right: 5%;
+            }
         }
     }
 }
