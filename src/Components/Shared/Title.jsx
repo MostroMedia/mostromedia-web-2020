@@ -3,12 +3,8 @@ import '../../Styles/title.scss';
 
 const Title = ({text, float}) => {
 
-    let position = false;
-
-    if(float === 'left') position = true;
-
     return (
-        <h2 className={`title title-team ${position ? 'left' : 'right'}`}>{text}</h2>
+        <h2 className={`title title-team ${float}`}>{text}</h2>
     )
 }
 

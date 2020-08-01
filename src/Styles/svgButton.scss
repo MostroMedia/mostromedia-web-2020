@@ -1,0 +1,43 @@
+@import "./variables.scss";
+
+.svgButton {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border: none;
+    border-bottom: 10px solid $primary-color;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+
+    span {
+        font-size: 18px;
+        color: $primary-color;
+        text-transform: uppercase;
+        letter-spacing: 0.135em;
+        margin: 0;
+    }
+}
+
+.svg {
+    height: 100px;
+    width: 100px;
+    background-size: initial;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 10px auto;
+}
+
+.svg {
+
+    &-web-development {
+        background-image: url('/svg/skill_web_development.svg');
+    }
+
+    &-graphic-design {
+        background-image: url('/svg/skill_design.svg');   
+    }
+
+    &-app-development {
+        background-image: url('/svg/skill_app_development.svg');
+    }
+}
+

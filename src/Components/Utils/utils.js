@@ -1,7 +1,7 @@
 
 /**
- * @desc        It adds a key for each resolution 
- *              From xsmall until xlarge
+ * @desc    It adds a key for each resolution 
+ *          From xsmall until xlarge
  */
 const getResolutionKey = () => {
     let resKey;
@@ -45,7 +45,7 @@ const getResolutionKey = () => {
 
 
 /**
- * @desc        It define the events when the resolution changes
+ * @desc    It define the events when the resolution changes
  */
 const windowResize = () => {
     let currentResolution = getResolutionKey();
@@ -66,9 +66,9 @@ const windowResize = () => {
 /**
  * @desc    It triggers a new customEvent with a data as a value.
  *          This event could be catched later by using a addEventListener(eventName)
- * @param {String} eventName 
- * @param {any} data 
- * @param {HTMLElement} element 
+ * @param   {String} eventName 
+ * @param   {any} data 
+ * @param   {HTMLElement} element 
  */
 const triggerEvent = (eventName, data, element = document ) => {
     const event = new CustomEvent(eventName, { detail: data });
