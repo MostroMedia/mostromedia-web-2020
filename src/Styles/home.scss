@@ -7,6 +7,7 @@
     background-size: cover;
     background-position: 20px;
     background-repeat: no-repeat;
+
     .first_bg, .second_bg {
         position: absolute;
         right: 0;
@@ -28,8 +29,14 @@
         grid-gap: 10px;
         padding: 40px 47px 10px;
         margin-top: 120px;
+
         .four-column {
             display: grid;
+        }
+
+        @media screen and (max-width: 760px){
+            grid-template-columns: 1% 1fr 1%;
+            margin: 10px auto;
         }
     }
 
@@ -70,21 +77,29 @@
 
             img.monster-one {
                 width: 40%;
-                bottom: 0;
+                bottom: -10px;
                 left: 10%;
             }
             img.monster-two {
                 width: 30%;
-                bottom: 0;
+                bottom: -5px;
                 left: 50%;
                 transform: translateX(-50%);
             }
             img.monster-three {
                 width: 50%;
                 top: auto;
-                bottom: 0;
+                bottom: -20px;
                 right: 5%;
             }
         }
+    }
+
+    @media screen and (max-width: 760px){
+        height: 850px;
+        background-image: url('/svg/mobile-back.svg');
+        margin: auto auto 100px;
+        overflow-x: hidden;
+        overflow: initial;
     }
 }

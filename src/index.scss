@@ -20,6 +20,16 @@ h5 {
   margin: 0 auto;
   min-width: 960px;
   max-width: 1440px;
+
+
+  @media screen and (max-width: 760px){
+
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+
+  }
+
 }
 
 button {

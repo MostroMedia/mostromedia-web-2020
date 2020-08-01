@@ -23,7 +23,7 @@ const Home = () => {
                     <div className="one-column"></div>
                     <div className="four-column">
                         <Subtitle text="Welcome to Motro Media"
-                                  float="left" />
+                                  float="left"/>
 
                         <Title text="Choose your Adventure Monster"
                                float="left" />
